@@ -1,0 +1,16 @@
+PODS:
+  - PatrickValidator (0.1.0)
+
+DEPENDENCIES:
+  - PatrickValidator (from `../`)
+
+EXTERNAL SOURCES:
+  PatrickValidator:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PatrickValidator: 9038f81757c012f3da7d9d53c2d9d6e23e81c5ab
+
+PODFILE CHECKSUM: 5295222959eb6b1761f036eff5efd87bfc34e76d
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module Pods_PatrickValidator_Example {
+  umbrella header "Pods-PatrickValidator_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

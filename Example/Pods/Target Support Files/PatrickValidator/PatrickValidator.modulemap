@@ -1,0 +1,6 @@
+framework module PatrickValidator {
+  umbrella header "PatrickValidator-umbrella.h"
+
+  export *
+  module * { export * }
+}
