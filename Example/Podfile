@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PatrickValidator_Example' do
+  pod 'PatrickValidator', :path => '../'
+
+  target 'PatrickValidator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
