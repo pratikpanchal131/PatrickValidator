@@ -13,7 +13,8 @@
 		89CB2406B336AAA5300A92151711EE39 /* Pods-PatrickValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5E7EB1CAA7947E4B862EC17A8AFC29 /* Pods-PatrickValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A85ED11602693F7A5BF8E84C97E0334 /* PatrickValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA7E380F52EF309AFD584E1C7696B41 /* PatrickValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7D0DB6110B70D2C7686D00131A41A0B /* Pods-PatrickValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63D30FEFEB650D567A303DED8AE4AF /* Pods-PatrickValidator_Tests-dummy.m */; };
-		C48E4EB9F4B6A2D32F142ABFDE13EE84 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B369ADBA787B8BBB9C1558C56439DA9 /* ReplaceMe.swift */; };
+		A9DBC7F81E7A939C00407AA0 /* PKValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */; };
+		A9DBC7FA1E7A951400407AA0 /* PKValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DBC7F91E7A951400407AA0 /* PKValidators.swift */; };
 		D4EBF4B41B251350DE3EFF8AA04A12B1 /* PatrickValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0C3303E840B11AACDCEDA51B76F20 /* PatrickValidator-dummy.m */; };
 		DAFD480DAC53464D5FB946EBD9BDE3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F410E0EFA92324D1CDAB9DCD011DF16B /* Pods-PatrickValidator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 693CAB0C99C50188085B23286F3B7381 /* Pods-PatrickValidator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		030227BB5B06DD71C949671161C2D729 /* Pods-PatrickValidator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickValidator_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		12B753F625FFE617F5A5E60FF5418EA1 /* PatrickValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = PatrickValidator.modulemap; sourceTree = "<group>"; };
+		12B753F625FFE617F5A5E60FF5418EA1 /* PatrickValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PatrickValidator.modulemap; sourceTree = "<group>"; };
 		1C1CCEB58BF1F165DED37397EC151627 /* Pods-PatrickValidator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickValidator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1C72865F96CCB90189F40CC2A4D67CA2 /* Pods-PatrickValidator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickValidator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		26D292DB70773686239A242E0E3108BD /* Pods-PatrickValidator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickValidator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -39,25 +40,26 @@
 		2ECA93B034AA39EE10009D1189C85B45 /* Pods-PatrickValidator_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickValidator_Example-resources.sh"; sourceTree = "<group>"; };
 		3F23A6185FC829404FEB4CCCA27E0C25 /* Pods-PatrickValidator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatrickValidator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		511CB2EA78F6D4BD9AE3D961D6C6F364 /* Pods-PatrickValidator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatrickValidator_Example-dummy.m"; sourceTree = "<group>"; };
-		515D8F0BDA218BACA995E733113C3D03 /* Pods-PatrickValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PatrickValidator_Example.modulemap"; sourceTree = "<group>"; };
+		515D8F0BDA218BACA995E733113C3D03 /* Pods-PatrickValidator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatrickValidator_Example.modulemap"; sourceTree = "<group>"; };
 		610C61FAD96EC06E6980615D5350EC3D /* Pods-PatrickValidator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatrickValidator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6664FCDBB91873EA3C8A3F5C3572DBCC /* Pods_PatrickValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PatrickValidator_Example.framework; path = "Pods-PatrickValidator_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6664FCDBB91873EA3C8A3F5C3572DBCC /* Pods_PatrickValidator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickValidator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		693CAB0C99C50188085B23286F3B7381 /* Pods-PatrickValidator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatrickValidator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6B15CD3D53D2CC91BFAC307063C19A83 /* Pods-PatrickValidator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatrickValidator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86BDB93BF3B8AA06697829505F3A07DA /* Pods-PatrickValidator_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickValidator_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8B369ADBA787B8BBB9C1558C56439DA9 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		8E336E545CECD5C738E7BA93E0BA67FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90E646290C0D260909E0303589820D0C /* Pods-PatrickValidator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickValidator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A1F8635E950CCF57FA237ED35B746AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F63D30FEFEB650D567A303DED8AE4AF /* Pods-PatrickValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatrickValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKValidator.swift; sourceTree = "<group>"; };
+		A9DBC7F91E7A951400407AA0 /* PKValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKValidators.swift; sourceTree = "<group>"; };
 		AE13FD272B2C6B47FA8C93E58DF9B32C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B1CB3634C86A09FAB61A7B70453D48F6 /* Pods-PatrickValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-PatrickValidator_Tests.modulemap"; sourceTree = "<group>"; };
+		B1CB3634C86A09FAB61A7B70453D48F6 /* Pods-PatrickValidator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatrickValidator_Tests.modulemap"; sourceTree = "<group>"; };
 		BA5E7EB1CAA7947E4B862EC17A8AFC29 /* Pods-PatrickValidator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatrickValidator_Example-umbrella.h"; sourceTree = "<group>"; };
-		C07E49FB4499267119E8FE0DDC15AB85 /* Pods_PatrickValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PatrickValidator_Tests.framework; path = "Pods-PatrickValidator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07E49FB4499267119E8FE0DDC15AB85 /* Pods_PatrickValidator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickValidator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C09EB96BCC7D7C10F69221E52EBD7E06 /* PatrickValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatrickValidator-prefix.pch"; sourceTree = "<group>"; };
 		C51E7D1AB2CC48EE47FA1E47BE025E5E /* PatrickValidator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PatrickValidator.xcconfig; sourceTree = "<group>"; };
-		C877A6FB52FB82EE66D08AAAEC42DD5A /* PatrickValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PatrickValidator.framework; path = PatrickValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C877A6FB52FB82EE66D08AAAEC42DD5A /* PatrickValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PatrickValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDA7E380F52EF309AFD584E1C7696B41 /* PatrickValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatrickValidator-umbrella.h"; sourceTree = "<group>"; };
 		D4F0C3303E840B11AACDCEDA51B76F20 /* PatrickValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PatrickValidator-dummy.m"; sourceTree = "<group>"; };
@@ -97,7 +99,6 @@
 			children = (
 				496380BAE4901443214A2C3E574CD829 /* Classes */,
 			);
-			name = PatrickValidator;
 			path = PatrickValidator;
 			sourceTree = "<group>";
 		};
@@ -118,9 +119,9 @@
 		496380BAE4901443214A2C3E574CD829 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B369ADBA787B8BBB9C1558C56439DA9 /* ReplaceMe.swift */,
+				A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */,
+				A9DBC7F91E7A951400407AA0 /* PKValidators.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -314,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					AB5CF35726FAD6ACF875CDDDCA740829 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -347,8 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9DBC7FA1E7A951400407AA0 /* PKValidators.swift in Sources */,
 				D4EBF4B41B251350DE3EFF8AA04A12B1 /* PatrickValidator-dummy.m in Sources */,
-				C48E4EB9F4B6A2D32F142ABFDE13EE84 /* ReplaceMe.swift in Sources */,
+				A9DBC7F81E7A939C00407AA0 /* PKValidator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +418,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C51E7D1AB2CC48EE47FA1E47BE025E5E /* PatrickValidator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -634,6 +642,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C51E7D1AB2CC48EE47FA1E47BE025E5E /* PatrickValidator.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
