@@ -13,6 +13,7 @@
 		89CB2406B336AAA5300A92151711EE39 /* Pods-PatrickValidator_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA5E7EB1CAA7947E4B862EC17A8AFC29 /* Pods-PatrickValidator_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A85ED11602693F7A5BF8E84C97E0334 /* PatrickValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA7E380F52EF309AFD584E1C7696B41 /* PatrickValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7D0DB6110B70D2C7686D00131A41A0B /* Pods-PatrickValidator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F63D30FEFEB650D567A303DED8AE4AF /* Pods-PatrickValidator_Tests-dummy.m */; };
+		A99581AD1E7BE3A300F67D7F /* PKAlertsAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99581AC1E7BE3A300F67D7F /* PKAlertsAction.swift */; };
 		A9DBC7F81E7A939C00407AA0 /* PKValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */; };
 		A9DBC7FA1E7A951400407AA0 /* PKValidators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DBC7F91E7A951400407AA0 /* PKValidators.swift */; };
 		D4EBF4B41B251350DE3EFF8AA04A12B1 /* PatrickValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F0C3303E840B11AACDCEDA51B76F20 /* PatrickValidator-dummy.m */; };
@@ -51,6 +52,7 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A1F8635E950CCF57FA237ED35B746AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F63D30FEFEB650D567A303DED8AE4AF /* Pods-PatrickValidator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatrickValidator_Tests-dummy.m"; sourceTree = "<group>"; };
+		A99581AC1E7BE3A300F67D7F /* PKAlertsAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKAlertsAction.swift; sourceTree = "<group>"; };
 		A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKValidator.swift; sourceTree = "<group>"; };
 		A9DBC7F91E7A951400407AA0 /* PKValidators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKValidators.swift; sourceTree = "<group>"; };
 		AE13FD272B2C6B47FA8C93E58DF9B32C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				A9DBC7F71E7A939C00407AA0 /* PKValidator.swift */,
 				A9DBC7F91E7A951400407AA0 /* PKValidators.swift */,
+				A99581AC1E7BE3A300F67D7F /* PKAlertsAction.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -356,6 +359,7 @@
 				A9DBC7FA1E7A951400407AA0 /* PKValidators.swift in Sources */,
 				D4EBF4B41B251350DE3EFF8AA04A12B1 /* PatrickValidator-dummy.m in Sources */,
 				A9DBC7F81E7A939C00407AA0 /* PKValidator.swift in Sources */,
+				A99581AD1E7BE3A300F67D7F /* PKAlertsAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
