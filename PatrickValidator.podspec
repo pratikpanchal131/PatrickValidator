@@ -8,8 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PatrickValidator'
-  s.version          = '0.1.3'
-  s.version          = '0.1.4'
+  s.version          = '0.1.6'
   s.summary          = 'Swift Validations'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/pratikpanchal131/PatrickValidator.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Pratik Panchal' => 'pratik.panchal@indianic.com' }
+  s.author           = { 'Pratik' => 'pratik.panchal@indianic.com' }
   s.source           = { :git => 'https://github.com/pratikpanchal131/PatrickValidator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
